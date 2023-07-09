@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Leetconstraints",
+    "description": "Adding Expected Time and space complexities for Leetcode porblems so that you dont need to rely on submission runtime for evaluating your solution",
+    "author": "https://github.com/cjspraneeth",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+       
+      ],
+      
+      
+    "host_permissions": [
+      "https://leetcode.com/"
+     
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
